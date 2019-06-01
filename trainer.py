@@ -8,7 +8,3 @@ class Trainer:
 		print("{}'s pkmn: ".format(self.name))
 		for c in self.pkmn:
 			print(c.name)
-
-	def list_money(self):
-		print("{} has: ".format(self.name))
-		print("PKMN$", self.money)
