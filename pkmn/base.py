@@ -1,7 +1,7 @@
 from typing import Typing
 
 class Base:
-	def __init__(self, index, name, attack, buff_attack, defense, buff_defense, buff_sp_attack, sp_attack, buf_sp_defense, sp_defense, buff_speed, speed, health, type1, type2 = Typing.Null):
+	def __init__(self, index, name, attack, defense, sp_attack, sp_defense, speed, health, type1, type2 = Typing.Null):
 		self.index = index
 		self.name = name
 		self.attack = attack
@@ -42,7 +42,7 @@ class Base:
 			self.buff_sp_defense,
 			self.speed,
 			self.buff_speed,
-			self.current_health,
+			self.curr_health,
 			self.health,
 			self.type1.name,
 			type2_text
