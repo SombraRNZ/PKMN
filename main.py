@@ -10,6 +10,14 @@ grey =Trainer("Grey",7,[
 	pkmn.Wolfly()
 ]) 
 
+rainbow =Trainer("Rainbow",'10',[
+	pkmn.Sleafy(),
+	pkmn.Sagire(),
+	pkmn.Hippool(),
+	pkmn.Stiger(),
+	pkmn.Wolfly()
+]) 
+
 print()
 grey.pkmn[0].status()
 print()

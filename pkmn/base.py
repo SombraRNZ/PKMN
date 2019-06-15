@@ -20,8 +20,8 @@ class Base:
 		self.type2 = type2
 
 
-	def alive(self):
-		return self.health > 0
+	def fainted(self):
+		return self.health <= 0
 
 	def status(self):
 		if self.type2 != Typing.Null:
@@ -48,8 +48,8 @@ class Base:
 			type2_text
 		))
 
-	def do_move(self,other,move):
-		move(self,other)
+	def do_move(self,other,move,Typing):
+		move(self,other,Typing)
 
 	def change(self):
 		print("Em desenvolvimento")

@@ -7,6 +7,7 @@ class Stiger(Base):
 			index=100,
 			name="Stiger",
 			type1=Typing.Steel,
+			type2=Typing.Dragon,
 			health=100,
 			speed=150,
 			attack=140,
